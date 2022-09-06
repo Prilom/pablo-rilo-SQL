@@ -82,13 +82,13 @@ insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('04'
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('05','17','SPRING','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('06','17','LODGY','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('07','17','JOGGER','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('08','06','ALHAMBRA.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('09','06','ARONA.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('10','06','ATECA.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('11','06','IBIZA.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('12','06','LEÓN.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('13','06','MII ELECTRIC.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('14','09','TARRACO.','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('08','06','ALHAMBRA','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('09','06','ARONA','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('10','06','ATECA','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('11','06','IBIZA','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('12','06','LEÓN','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('13','06','MII ELECTRIC','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('14','06','TARRACO','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('15','09','GOLF','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('16','09','POLO','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('17','09','PASSAT','');
@@ -96,21 +96,21 @@ insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('18'
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('19','09','ARTEON','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('20','09','SCIRICCO','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('21','09','TIGUAN','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('22','23','TOURAN','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('23','23','ARKANA.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('24','23','CAPTUR.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('25','23','CLIO.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('26','23','ESPACE.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('27','23','GRAND SCÉNIC.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('28','23','KADJAR.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('29','26','KANGOO.','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('30','26','KOLEOS','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('22','09','TOURAN','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('23','23','ARKANA','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('24','23','CAPTUR','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('25','23','CLIO','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('26','23','ESPACE','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('27','23','GRAND SCÉNIC','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('28','23','KADJAR','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('29','23','KANGOO','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('30','23','KOLEOS','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('31','26','X1','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('32','26','X2','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('33','26','SERIE 3','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('34','29','X4','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('35','29','X5','');
-insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('36','29','X6','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('34','26','X4','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('35','26','X5','');
+insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('36','26','X6','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('37','29','TUCSON','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('38','29','SANTA FE','');
 insert into vehiculos.modelo(id_modelo, id_marca, nombre,descripcion)values('39','29','KONA','');
@@ -121,6 +121,7 @@ insert into vehiculos.tipo_moneda (id_moneda, nombre, pais, descripcion) values(
 insert into vehiculos.tipo_moneda (id_moneda, nombre, pais, descripcion) values('02','LIBRA','REINO UNIDO','')
 
 --COCHES
+
 
 insert into vehiculos.coche (matricula, id_modelo, fecha_compra, id_color, km, id_estado) values('2576 - FSM','29','2020/8/29','03','1671','01');
 insert into vehiculos.coche (matricula, id_modelo, fecha_compra, id_color, km, id_estado) values('7280 - NRD','01','2019/10/17','02','3045','01');
@@ -165,7 +166,6 @@ insert into vehiculos.coche (matricula, id_modelo, fecha_compra, id_color, km, i
 insert into vehiculos.coche (matricula, id_modelo, fecha_compra, id_color, km, id_estado) values('4846 - FPZ','30','2019/5/25','05','7486','01');
 insert into vehiculos.coche (matricula, id_modelo, fecha_compra, id_color, km, id_estado) values('1116 - RTP','11','2018/5/13','06','2617','01');
 insert into vehiculos.coche (matricula, id_modelo, fecha_compra, id_color, km, id_estado) values('1160 - GGB','13','2019/5/16','03','1879','01');
-
 --HISTORIAL SEGUROS VEHICULOS
 
 insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('7280 - NRD','1613039276','04','2019/2/11','2020/02/11','02');
@@ -278,20 +278,20 @@ insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_ini
 insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('4846 - FPZ','8592284767','06','2021/06/08','2022/06/08','02');
 insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1116 - RTP','560055514','07','2020/08/03','2021/08/03','02');
 insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1160 - GGB','7388863837','01','2021/01/23','2022/01/23','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('7280 - NRD','75589507','04','2022/02/11','2023/02/11','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('7983 - PCW','41450934','03','2021/12/02','2022/12/02','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('8607 - PCT','67732503','08','2021/08/15','2022/08/15','01');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('4088 - DVD','45545933','01','2022/07/07','2023/07/07','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1956 - QQS','68450351','08','2022/08/27','2023/08/27','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('0826 - CYH','16672571','04','2022/04/06','2023/04/06','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('4444 - AFU','87078251','02','2021/01/01','2022/01/01','01');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1998 - RVO','39967746','07','2022/03/06','2023/03/06','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('6810 - ZLH','26540061','02','2021/06/16','2022/06/16','01');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('5584 - LHB','43687152','03','2022/01/03','2023/01/03','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('5789 - LVB','21643355','05','2021/07/02','2022/07/02','01');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('4846 - FPZ','90645997','08','2022/06/08','2023/06/08','02');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1116 - RTP','50975581','01','2021/08/03','2022/08/03','01');
-insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1160 - GGB','30641074','02','2022/01/23','2023/01/23','02');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('7280 - NRD','75589507','04','2022/02/11','2023/02/11','01');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('7983 - PCW','41450934','03','2021/12/02','2022/12/02','01');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('8607 - PCT','67732503','08','2021/08/15','2022/08/15','02');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('4088 - DVD','45545933','01','2022/07/07','2023/07/07','01');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1956 - QQS','68450351','08','2022/08/27','2023/08/27','01');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('0826 - CYH','16672571','04','2022/04/06','2023/04/06','01');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('4444 - AFU','87078251','02','2021/01/01','2022/01/01','02');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1998 - RVO','39967746','07','2022/03/06','2023/03/06','01');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('6810 - ZLH','26540061','02','2021/06/16','2022/06/16','02');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('5584 - LHB','43687152','03','2022/01/03','2023/01/03','01');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('5789 - LVB','21643355','05','2021/07/02','2022/07/02','02');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('4846 - FPZ','90645997','08','2022/06/08','2023/06/08','01');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1116 - RTP','50975581','01','2021/08/03','2022/08/03','02');
+insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('1160 - GGB','30641074','02','2022/01/23','2023/01/23','01');
 insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('8607 - PCT','79995441','03','2022/08/15','2023/08/15','01');
 insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('4444 - AFU','67508913','09','2022/01/01','2023/01/01','01');
 insert into vehiculos.seguros_coche(matricula, poliza, id_aseguradora, fecha_inicio, fecha_fin, id_estado)values('6810 - ZLH','43570915','06','2022/06/16','2023/06/16','01');

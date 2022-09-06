@@ -1,7 +1,8 @@
 /* Consulta que devuelve a parte de los campos que indica el enunciado, la fecha de revisión(4000/01/01 si aun no se le realizó la primera revisión),
- importe y tipo de moneda
+ importe y tipo de moneda. ademas esta ordenado en base al grupo empresarial y dentro de cada grupo en orden ascendente de kilometraje
  */
- select b.nombre Modelo,
+ 
+select b.nombre Modelo,
 	   c.nombre Marca,
 	   d.nombre G_Empresarial,
 	   a.fecha_compra Fecha_compra,
@@ -29,14 +30,9 @@ inner join vehiculos.grupo_empresarial d on d.id_grupo = c.id_grupo  --join cont
 inner join vehiculos.color e on e.id_color = a.id_color --join contra la tabla vehiculos.color
 inner join vehiculos.seguros_coche f on f.matricula = a.matricula --join contra la tabla vehiculos.color
 inner join vehiculos.aseguradora g on f.id_aseguradora = g.id_aseguradora --join contra la tabla vehiculos.aseguradora
-left outer join vehiculos.aseguradora h on h.matricula = a.matricula --join contra la tabla vehiculos.aseguradora
-left outer join vehiculos.aseguradora i on i.id_moneda = h.id_moneda--join contra la tabla vehiculos.aseguradora
-where f.id_estado = '01'
- 
-
- 
-
-
-
+left outer join vehiculos.revision_coche h on h.matricula = a.matricula --join contra la tabla vehiculos.aseguradora
+left outer join vehiculos.tipo_moneda  i on i.id_moneda = h.id_moneda--join contra la tabla vehiculos.aseguradora
+where f.id_estado = '01' 
+order by G_Empresarial , a.km
 
 
