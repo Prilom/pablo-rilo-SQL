@@ -14,15 +14,11 @@ select b.nombre Modelo,
 	   case when h.fecha_revision is null 
 	   		then '4000/01/01'
 	   		else h.fecha_revision
-	   end as fecha_revision,
+	   end as fecha_revision,	   
 	   case when h.importe is null 
 	   		then '0'
-	   		else h.importe
-	   end as importe, 
-	   case when i.nombre is null 
-	   		then ''
-	   		else i.nombre
-	   end as moneda 	
+	   		else concat(h.importe,' ',i.nombre)
+	   end as importe
 from vehiculos.coche a 
 inner join vehiculos.modelo b on b.id_modelo = a.id_modelo --join contra la tabla vehiculos.modelo
 inner join vehiculos.marca c on c.id_marca = b.id_marca --join contra la tabla vehiculos.marca
